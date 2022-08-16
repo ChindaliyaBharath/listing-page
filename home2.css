@@ -163,3 +163,67 @@ ul{
 .fotDiv noBorder{
     border: none;
 }
+@media screen and (max-width:1600px){
+    body{
+        background-color:skyBlue
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(224, 169, 244)
+    }
+    #dropdown {
+        margin-left: 30%;
+        margin-top: 24%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(244, 228, 169)
+    }
+    #heading{
+        margin-top: 20%;
+    }
+    #dropdown {
+        margin-top: 30%;
+        margin-left: 32%;
+    }
+}
+
+@media screen and (max-width:999px){
+    body{
+        background-color:rgb(194, 243, 190)
+    }
+    .tileContainer{
+        width:45%
+    }
+    #logo {
+        margin-left: 38%; 
+    }
+    #dropdown {
+        margin-top: 32%;
+        margin-left: 15%;
+        width:80%
+    }
+    #heading {
+        margin-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(249, 198, 199)
+    }
+    .tileContainer{
+        width:100%
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(194, 205, 242)
+    }
+}
