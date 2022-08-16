@@ -1,0 +1,165 @@
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 70px;
+    /*border: 2px solid #3b2632;*/
+    background-color: #3b2632;
+    display: block;
+}
+#headerText{
+    float: left;
+    color: white;
+    font-size: 30px;
+    margin-top:1%;
+    margin-left: 1%;
+}
+#socialIcon{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+#socialIcon img{
+    width: 50px;
+}
+#mainContainer{
+    height:1200px;
+    
+}
+#contentSection{
+    margin: 5% 8% 0% 8%;
+    height: 1000px;
+    /*background: lightyellow;*/
+}
+#leftContainer{
+    width: 200px;
+    float: left;
+    box-shadow: 10px 5px 5px lightgrey;
+    border: 0.5px solid lightgray;
+}
+#leftContainerHeading{
+    height: 40px;
+    /* border: 2px dotted red; */
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.leftContainerCat{
+    
+    /*border: 2px dotted blue;*/
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.leftContainerCatName{
+    font-size: 16px;
+    font-weight: bold;
+}
+.leftContainerCat ul{
+    list-style: none;
+    padding-left: 10px;
+}
+#rightContainer{
+    height:500px;
+    width: 80%;
+    float: right;
+    /*border: 2px double cyan;*/
+}
+#searchInput{
+    width: 99%;
+    border-radius: 5px;
+    border-color: #3333;
+    height: 26px;
+}
+
+
+/* Restuarant Listing Section */
+#restList{
+    height: 800px;
+}
+
+#restDetail{
+    border: 0.5px solid lightgray;
+    box-shadow: 10px 5px 5px lightgrey;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+#restImg{
+    width: 40%;
+}
+#restImg img{ 
+    float: left;
+    width: 100%;
+    margin-left: 25px;
+    border-radius: 15px;
+    margin-top: 22px;
+    height: 245px;
+}
+
+#restText{
+    margin-left: 45%;
+}
+
+#restShortDes{
+    line-height: 25px;
+}
+#restShortDes h2{
+    margin-bottom: 2px;
+}
+.bottomMargin{
+    margin-bottom: 15px;
+}
+.boldFont{
+    font-weight: bold;
+}
+.darkRedFont{
+    color: rgb(162, 191, 232);
+}
+input[type=button]{
+    width: 175px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    margin-right: 5%;
+    margin-top: 2%;
+    letter-spacing: 3px;
+}
+.blueBtn{
+    background-color: rgb(161, 213, 17);
+}
+.redBtn{
+    background-color: rgb(42, 6, 6);
+}
+.yellowBtn{
+    background-color: rgb(132, 220, 236);
+}
+.orangeBtn{
+    background-color: rgb(247, 147, 25);
+}
+
+/* Css for Footer section */
+footer{
+    height: 140px;
+    /* border: 5px dotted red; */
+    background-color:#6e2d16a6 ;
+    color: #fff;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+.fotDiv{
+    width: 31%;
+    float: left;
+    border-right: 2px solid white;
+}
+.fotDiv noBorder{
+    border: none;
+}
