@@ -177,6 +177,10 @@ ul{
         margin-left: 30%;
         margin-top: 24%;
     }
+    #rightContainer {
+        height: 500px;
+        width: 74%;
+    }
 }
 
 @media screen and (max-width:1200px){
@@ -189,6 +193,30 @@ ul{
     #dropdown {
         margin-top: 30%;
         margin-left: 32%;
+    }
+    #leftContainer {
+        width: 168px;
+    }
+    #rightContainer {
+        height: 500px;
+        width: 75%;
+        float: right
+    }
+    input[type=button] {
+        width: 171px;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        margin-right: 8%;
+        margin-top: 1%;
+        letter-spacing: 3px;
+    }
+    .darkRedFont {
+        color: rgb(162, 191, 232);
+        font-size: 17px;
+    }
+    #restShortDes {
+        line-height: 21px;
     }
 }
 
@@ -210,6 +238,30 @@ ul{
     #heading {
         margin-left: 10%;
     }
+    #leftContainer {
+        width: 146px;
+    }
+    #rightContainer {
+        height: 500px;
+        width: 73%;
+        float: right;
+    }
+    .darkRedFont {
+        color: rgb(162, 191, 232);
+        font-size: 14px;
+    }
+    input[type=button] {
+        width: 150px;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        margin-right: 2%;
+        margin-top: 1%;
+        letter-spacing: 2px;
+    }
+    #restShortDes {
+        line-height: 20px;
+    }
     
 }
 
@@ -219,6 +271,43 @@ ul{
     }
     .tileContainer{
         width:100%
+    }
+    #leftContainer {
+        width: 109px;
+    }
+    #leftContainerHeading {
+        height: 37px;
+        /* border: 2px dotted red; */
+        font-size: 16px;
+        margin-left: 9px;
+        margin-top: 8px;
+        font-weight: bold;
+    }
+    .leftContainerCat {
+        /* border: 2px dotted blue; */
+        font-size: 8px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .leftContainerCatName {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .leftContainerCatName {
+        font-size: 9px;
+        font-weight: bold;
+    }
+    #searchInput {
+        width: 101%;
+        border-radius: 10px;
+        border-color: #3333;
+        height: 19px;
+    }
+    #rightContainer {
+        height: 497px;
+        width: 71%;
+        float: right;
     }
 }
 
